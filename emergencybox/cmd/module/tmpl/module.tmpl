@@ -1,0 +1,13 @@
+package {{.package}}
+
+import (
+    "github.com/spf13/cobra"
+)
+
+var _{{.module}}Cmd = &cobra.Command{
+    Use: "{{.module}}",
+}
+
+func Initialization(rootCmd *cobra.Command) {
+	rootCmd.AddCommand(_{{.module}}Cmd)
+}

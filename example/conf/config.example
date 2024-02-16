@@ -1,0 +1,26 @@
+env: dev
+base-db:
+  name: basedb
+  host:
+  port: 3306
+  user:
+  password:
+  database:
+
+base-redis:
+  name: baseredis
+  host:
+  port: 6379
+  auth:
+  db: 0
+
+base-es:
+  name: basees
+  address: []
+  username:
+  password:
+
+base-kafka:
+  name: basekafka
+  network: tcp
+  address:
