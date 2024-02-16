@@ -1,0 +1,26 @@
+package {{.package}}
+
+import (
+	"github.com/spf13/cobra"
+	"{{.app}}/app"
+)
+
+type {{.cmd}} struct {
+	app.UseCase
+}
+
+var _{{.cmd}} *{{.cmd}}
+
+var _{{.cmd}}Cmd = &cobra.Command{
+	Use: "{{.cmd}}",
+	Run: func(cmd *cobra.Command, args []string) {
+
+	},
+}
+
+func init{{.cmdName}}(parentCmd *cobra.Command) {
+	_{{.cmd}} = &{{.cmd}}{}
+	_{{.cmd}}.InitUseCase(parentCmd)
+
+	parentCmd.AddCommand(_{{.cmd}}Cmd)
+}
