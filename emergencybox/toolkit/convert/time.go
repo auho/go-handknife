@@ -31,6 +31,8 @@ func TimestampToInt64(ts any) (int64, error) {
 		t = int64(_ts)
 	case int32:
 		t = int64(_ts)
+	case int64:
+		t = _ts
 	case uint32:
 		t = int64(_ts)
 	case time.Time:
