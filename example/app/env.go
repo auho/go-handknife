@@ -1,6 +1,6 @@
 package app
 
-import "github.com/auho/go-handknife/emergencybox/app"
+import "github.com/auho/go-handknife/blade/app"
 
 const dev = "dev"
 const prod = "prod"

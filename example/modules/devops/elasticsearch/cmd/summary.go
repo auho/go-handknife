@@ -4,6 +4,7 @@ import (
 	"os"
 
 	"example/app"
+
 	summary2 "github.com/auho/go-toolkit/elasticsearch/indices/summary"
 	elasticsearch2 "github.com/elastic/go-elasticsearch/v7"
 	"github.com/spf13/cobra"

@@ -2,6 +2,7 @@ package kafka
 
 import (
 	"example/app"
+
 	"github.com/spf13/cobra"
 )
 

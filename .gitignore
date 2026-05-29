@@ -1,6 +1,9 @@
 .DS_Store
+
 .vscode
 .idea
+.trae
+.claude
 
 go.work
 go.work.sum
