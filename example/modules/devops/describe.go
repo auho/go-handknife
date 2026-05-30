@@ -5,7 +5,8 @@ import (
 	kafkaDescribes "github.com/auho/go-toolkit/kafka/describes"
 
 	"example/app"
-	"github.com/auho/go-handknife/emergencybox/toolkit/prompt"
+
+	"github.com/auho/go-handknife/blade/toolkit/prompt"
 	"github.com/elastic/go-elasticsearch/v7"
 	"github.com/spf13/cobra"
 )

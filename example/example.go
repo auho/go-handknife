@@ -3,17 +3,21 @@ package main
 import (
 	"example/app"
 	"example/modules"
-	"github.com/auho/go-handknife/emergencybox/cmd/execute"
+
+	"github.com/auho/go-handknife/blade/cmd/execute"
 	"github.com/spf13/cobra"
 )
 
+var appName string
 var version = ""
 var lastDate = ""
 
 func main() {
-	execute.Exec(func(command *cobra.Command) {
-		app.Initialization()
+	appName = "example"
 
-		modules.Initialization(command)
+	execute.Exec(appName, func(command *cobra.Command) {
+		app.Initialize()
+
+		modules.Initialize(command)
 	})
 }

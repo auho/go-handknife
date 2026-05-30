@@ -7,7 +7,7 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-func Initialization() {
+func Initialize() {
 	_f := "conf/config.yaml"
 	b, err := os.ReadFile(_f)
 	if err != nil {

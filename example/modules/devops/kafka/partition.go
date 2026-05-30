@@ -2,7 +2,8 @@ package kafka
 
 import (
 	"example/app"
-	"github.com/auho/go-handknife/emergencybox/toolkit/prompt"
+
+	"github.com/auho/go-handknife/blade/toolkit/prompt"
 	"github.com/auho/go-toolkit/kafka/partitions/reassign/gen"
 	"github.com/spf13/cobra"
 )

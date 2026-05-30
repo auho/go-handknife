@@ -3,6 +3,7 @@ module example
 go 1.21.5
 
 require (
+	github.com/auho/go-handknife v1.0.0
 	github.com/auho/go-toolkit/elasticsearch v0.0.0-20241217063504-e5b194ca3628
 	github.com/auho/go-toolkit/kafka v0.0.0-20241217063504-e5b194ca3628
 	github.com/elastic/go-elasticsearch/v7 v7.17.10
@@ -14,13 +15,23 @@ require (
 )
 
 require (
+	github.com/auho/go-toolkit/console v0.0.0-20241217063504-e5b194ca3628 // indirect
+	github.com/auho/go-toolkit/farmtools/convert v0.0.0-20241217063504-e5b194ca3628 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/chzyer/readline v1.5.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
+	github.com/go-playground/locales v0.14.1 // indirect
+	github.com/go-playground/universal-translator v0.18.1 // indirect
+	github.com/go-playground/validator/v10 v10.14.1 // indirect
+	github.com/go-sql-driver/mysql v1.7.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/jedib0t/go-pretty/v6 v6.5.6 // indirect
+	github.com/jedib0t/go-pretty/v6 v6.5.8 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/klauspost/compress v1.17.7 // indirect
+	github.com/leodido/go-urn v1.2.4 // indirect
+	github.com/manifoldco/promptui v0.9.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
@@ -35,4 +46,5 @@ require (
 	golang.org/x/net v0.30.0 // indirect
 	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/text v0.19.0 // indirect
+	gorm.io/driver/mysql v1.5.1 // indirect
 )
